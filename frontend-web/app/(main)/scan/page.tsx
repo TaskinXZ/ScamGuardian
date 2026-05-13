@@ -13,7 +13,6 @@ export default function ScanPage() {
   // =========================
   const analyzeMessage = (message: string) => {
     const text = message.toLowerCase();
-
     let score = 0;
     let reasons: string[] = [];
     let detectedWords: string[] = [];
