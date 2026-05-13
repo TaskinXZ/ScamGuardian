@@ -262,7 +262,7 @@ export default function ScanPage() {
                 transition={{ duration: 0.4 }}
                 className={`text-6xl font-bold mt-4 ${getSeverityColor()}`}
               >
-                {result.score}%Scam Guardian Project Part 4 — Supabase Backend + Authentication + Database
+                {result.score}%
               </motion.div>
 
               {/* RISK BAR */}
